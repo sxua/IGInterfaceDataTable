@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name         = 'IGInterfaceDataTable'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.1'
   spec.license      =  { :type => 'BSD' }
   spec.authors      = { 'Ryan Nystrom' => 'rnystrom@fb.com' }
   spec.summary      = 'A category on WKInterfaceTable that makes configuring tables with multi-dimensional data easier.'
-  spec.source       = { :git => 'https://github.com/instagram/IGInterfaceDataTable.git', :tag => '0.1.0' }
+  spec.source       = { :git => 'https://github.com/sxua/IGInterfaceDataTable.git', :tag => '0.1.1' }
   spec.homepage	    = 'https://github.com/instagram/IGInterfaceDataTable'
 
   spec.public_header_files = [
