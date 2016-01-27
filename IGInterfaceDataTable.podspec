@@ -4,8 +4,8 @@ Pod::Spec.new do |spec|
   spec.license      =  { :type => 'BSD' }
   spec.authors      = { 'Ryan Nystrom' => 'rnystrom@fb.com' }
   spec.summary      = 'A category on WKInterfaceTable that makes configuring tables with multi-dimensional data easier.'
-  spec.source       = { :git => 'https://github.com/instagram/IGInterfaceDataTable.git', :tag => '0.1.0' }
-  spec.homepage	    = 'https://github.com/Instagram/IGInterfaceDataTable'
+  spec.source       = { :git => 'https://github.com/sxua/IGInterfaceDataTable.git', :tag => '0.1.0' }
+  spec.homepage	    = 'https://github.com/instagram/IGInterfaceDataTable'
 
   spec.public_header_files = [
       'IGInterfaceDataTable/*.h'
@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://twitter.com/fbOpenSource'
 
   spec.ios.deployment_target = '8.2'
+  spec.watchos.deployment_target = '2.0' if spec.respond_to(:watchos)
 end
